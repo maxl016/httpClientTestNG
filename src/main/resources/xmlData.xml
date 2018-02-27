@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlData name="testcaseData">  
+    <testCaseName>
+    	<序号>1</序号>
+	    <用例名称>xmlTest</用例名称>
+	    <用例描述>登陆测试用例轴</用例描述>
+	    <接口地址>http://172.18.1.59:8080</接口地址>
+	    <请求参数>account=15029352030,password=123456</请求参数>
+    	<预期结果>请求成功</预期结果>
+    	<是否运行>Y</是否运行>
+    </testCaseName>
+    <testCaseName1>
+	   	<序号>1</序号>
+	    <用例名称>login</用例名称>
+	    <用例描述>登陆测试用例轴</用例描述>
+	    <接口地址>http://172.18.1.59:8080</接口地址>
+	    <请求参数>account=15029352030,password=123456</请求参数>
+    	<预期结果>请求成功</预期结果>
+    	<是否运行>N</是否运行>
+   </testCaseName1>
+</xmlData>

@@ -1,0 +1,1 @@
+UPDATE acc_order a SET a.acc_order_status='0' WHERE a.acc_order_no IN('AN161018003004640252','AN161018003003752438')

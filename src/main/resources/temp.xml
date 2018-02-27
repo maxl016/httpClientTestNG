@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlData name="testcaseData">  
+    <testCaseName>
+    	<sql>SELECT 
+		    CASE  WHEN COUNT(1)=0 THEN 0
+		   WHEN l.record_amt IS NULL THEN 0
+		   ELSE l.record_amt 
+		   END AS outCheckAmt
+		FROM
+		    cur_fund_record l 
+		WHERE l.user_id = #{userid} 
+		    AND l.record_type = '2' 
+		    AND l.record_status = '2' ;
+		</sql>
+    </testCaseName>
+</xmlData>
